@@ -1,0 +1,8 @@
+.logo{width: 15%;height: auto;}
+@media(max-width:768px){
+    .logo{width: 40%;height: auto;}
+}
+@media(min-width:1024px){
+    .logo{padding-left: 50px;}
+}
+.logo1{width: 25%;height: auto;}
