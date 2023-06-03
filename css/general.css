@@ -7,11 +7,18 @@
 }
 
 @font-face {
-  font-family: "Montserrar-Regular";
+  font-family: "Montserrat-Regular";
   src: url("../fonts/Montserrat-Regular.ttf");
 }
 .fontMR {
   font-family: "Montserrat-Regular";
+}
+
+.hoverBtn:hover {
+  background-color: white;
+  color: black;
+  border: 0px;
+  transition: all 1s;
 }
 
 /*# sourceMappingURL=general.css.map */
