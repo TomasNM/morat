@@ -34,4 +34,8 @@ a:hover {
   border: transparent;
 }
 
+body > footer {
+  background-color: var(--background-dark1);
+}
+
 /*# sourceMappingURL=general.css.map */
