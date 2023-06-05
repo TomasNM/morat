@@ -34,7 +34,7 @@ a:hover {
   border: transparent;
 }
 
-body > footer {
+footer {
   background-color: var(--background-dark1);
 }
 

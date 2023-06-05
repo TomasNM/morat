@@ -50,7 +50,7 @@ a:hover {
   border: transparent;
 }
 
-body > footer {
+footer {
   background-color: var(--background-dark1);
 }
 
@@ -84,6 +84,10 @@ body > footer {
     margin-left: auto;
     margin-right: auto;
   }
+  .navIcon {
+    padding-left: 8px;
+    padding-bottom: 8px;
+  }
 }
 @media (max-width: 768px) {
   .logo1 {
@@ -110,6 +114,9 @@ body > footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .navIcon {
+    display: flex;
   }
 }
 .bg-dark1 {

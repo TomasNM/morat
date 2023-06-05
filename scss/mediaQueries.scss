@@ -5,10 +5,12 @@
     .imgClothing{width: 100%;height: auto;display: inline-block;margin-left: auto;margin-right: auto;}
     .btn1{position: absolute;top: 70%;left: 25%;background-color: transparent;border: 1px solid white;color: white;cursor: pointer;width: 50%;height: 10%;}
     .logoFooter{width: 10%;height: auto;display: block;margin-left: auto;margin-right: auto;}
+    .navIcon{padding-left: 8px;padding-bottom: 8px;}
 }
 // MOBILE
 @media(max-width:768px){
     .logo1{width: 70%;height: auto;display: block;margin-left: auto;margin-right: auto;}
     .btn1{position: absolute;top: 70%;left: 25%;background-color: transparent;border: 1px solid white;color: white;cursor: pointer;width: 50%;height: 10%;}
     .logoFooter{width: 30%;height: auto;display: block;margin-left: auto;margin-right: auto;}
+    .navIcon{display: flex;}
 }
