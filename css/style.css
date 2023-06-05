@@ -54,6 +54,10 @@ footer {
   background-color: var(--background-dark1);
 }
 
+.bg-green1 {
+  background-color: #0F5132;
+}
+
 @media (min-width: 1024px) {
   .logo1 {
     width: 25%;
