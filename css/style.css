@@ -46,6 +46,10 @@ a:hover {
   color: lightgray;
 }
 
+.borderT {
+  border: transparent;
+}
+
 @media (min-width: 1024px) {
   .logo1 {
     width: 25%;

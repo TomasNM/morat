@@ -30,4 +30,8 @@ a:hover {
   color: lightgray;
 }
 
+.borderT {
+  border: transparent;
+}
+
 /*# sourceMappingURL=general.css.map */
