@@ -21,6 +21,13 @@
     width: 50%;
     height: 10%;
   }
+  .logoFooter {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (max-width: 768px) {
   .logo1 {
@@ -40,6 +47,13 @@
     cursor: pointer;
     width: 50%;
     height: 10%;
+  }
+  .logoFooter {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

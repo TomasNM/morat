@@ -21,4 +21,13 @@
   transition: all 1s;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: lightgray;
+}
+
 /*# sourceMappingURL=general.css.map */

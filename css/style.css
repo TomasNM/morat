@@ -37,6 +37,15 @@
   transition: all 1s;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: lightgray;
+}
+
 @media (min-width: 1024px) {
   .logo1 {
     width: 25%;
@@ -60,6 +69,13 @@
     width: 50%;
     height: 10%;
   }
+  .logoFooter {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (max-width: 768px) {
   .logo1 {
@@ -80,6 +96,20 @@
     width: 50%;
     height: 10%;
   }
+  .logoFooter {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.bg-dark1 {
+  background-color: rgb(29, 29, 29);
+}
+
+.white {
+  filter: invert(100%) sepia(0%) saturate(7486%) hue-rotate(354deg) brightness(115%) contrast(103%);
 }
 
 /*# sourceMappingURL=style.css.map */
