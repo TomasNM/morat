@@ -15,4 +15,5 @@ a:hover{color: lightgray;}
 .borderT{border: transparent;}
 footer{background-color: var(--background-dark1);}
 .bg-green1{background-color: #0F5132;}
-header{background-color: var(--background-dark1);}
+.catalog:hover{transition: all .3s;padding: 10px;cursor: pointer;}
+.txtProd{padding-left: 20px;font-size: 13px;line-height: 1px;padding-top: 10px;}

@@ -42,8 +42,17 @@ footer {
   background-color: #0F5132;
 }
 
-header {
-  background-color: var(--background-dark1);
+.catalog:hover {
+  transition: all 0.3s;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.txtProd {
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 1px;
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=general.css.map */
