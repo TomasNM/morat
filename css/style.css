@@ -58,6 +58,10 @@ footer {
   background-color: #0F5132;
 }
 
+header {
+  background-color: var(--background-dark1);
+}
+
 @media (min-width: 1024px) {
   .logo1 {
     width: 25%;
@@ -147,7 +151,7 @@ footer {
     grid-area: c12;
   }
   .catalog {
-    width: 80%;
+    width: 100%;
     height: auto;
     padding: 20px;
   }

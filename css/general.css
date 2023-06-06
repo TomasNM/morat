@@ -42,4 +42,8 @@ footer {
   background-color: #0F5132;
 }
 
+header {
+  background-color: var(--background-dark1);
+}
+
 /*# sourceMappingURL=general.css.map */
