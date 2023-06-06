@@ -1,11 +1,45 @@
 // DESKTOP
-// GRID INDEX
 @media(min-width:1024px){
     .logo1{width: 25%;height: auto;}
     .imgClothing{width: 100%;height: auto;display: inline-block;margin-left: auto;margin-right: auto;}
     .btn1{position: absolute;top: 70%;left: 25%;background-color: transparent;border: 1px solid white;color: white;cursor: pointer;width: 50%;height: 10%;}
     .logoFooter{width: 10%;height: auto;display: block;margin-left: auto;margin-right: auto;}
     .navIcon{padding-left: 8px;padding-bottom: 8px;}
+    // GRID CLOTHING
+    .gridClothing{
+        display: grid;
+        grid-template-areas: 
+        "filtros productos";
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: auto;
+    }
+    .filtros{grid-area: filtros;}
+    .productos{grid-area: productos;}
+    // GRID PRODUCTOS
+    .gridProductos{
+        display: grid;
+        grid-template-areas: 
+        "c1 c2 c3"
+        "c4 c5 c6"
+        "c7 c8 c9"
+        "c10 c11 c12";
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+    .c1{grid-area: c1;}
+    .c2{grid-area: c2;}
+    .c3{grid-area: c3;}
+    .c4{grid-area: c4;}
+    .c5{grid-area: c5;}
+    .c6{grid-area: c6;}
+    .c7{grid-area: c7;}
+    .c8{grid-area: c8;}
+    .c9{grid-area: c9;}
+    .c10{grid-area: c10;}
+    .c11{grid-area: c11;}
+    .c12{grid-area: c12;}
+    .catalog{width: 80%;height: auto; padding: 20px;}
+
 }
 // MOBILE
 @media(max-width:768px){
@@ -13,4 +47,22 @@
     .btn1{position: absolute;top: 70%;left: 25%;background-color: transparent;border: 1px solid white;color: white;cursor: pointer;width: 50%;height: 10%;}
     .logoFooter{width: 30%;height: auto;display: block;margin-left: auto;margin-right: auto;}
     .navIcon{display: flex;}
+    .catalog{width: 100%;height: auto;}
+}
+// MID
+@media(min-width:769px) and (max-width:1640px){
+    // GRID MID
+    .gridProductos{
+        display: grid;
+        grid-template-areas: 
+        "c1 c2"
+        "c3 c4"
+        "c5 c6"
+        "c7 c8"
+        "c9 c10"
+        "c11 c12";
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(6, auto);
+    }
+    .catalog{width: 100%;height: auto;padding: 20px;}
 }
