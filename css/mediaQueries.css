@@ -95,6 +95,9 @@
   .padding-catalog {
     padding-top: 48px;
   }
+  .filtros {
+    display: block;
+  }
 }
 @media (max-width: 768px) {
   .logo1 {

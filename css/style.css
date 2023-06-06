@@ -71,6 +71,27 @@ footer {
   padding-top: 10px;
 }
 
+.checkbox {
+  padding-left: 20px;
+}
+
+.btnFiltros {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+.btnFiltros:hover {
+  background-color: #178250;
+  transition: all 0.3s;
+}
+
+.eliminar:hover {
+  color: lightgray;
+  cursor: pointer;
+}
+
 @media (min-width: 1024px) {
   .logo1 {
     width: 25%;
@@ -167,6 +188,9 @@ footer {
   }
   .padding-catalog {
     padding-top: 48px;
+  }
+  .filtros {
+    display: block;
   }
 }
 @media (max-width: 768px) {
