@@ -185,6 +185,17 @@ footer {
     width: 100%;
     height: auto;
   }
+  .gridProductos {
+    display: grid;
+    grid-template-areas: "c1 c2" "c3 c4" "c5 c6" "c7 c8" "c9 c10" "c11 c12";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+  }
+  .catalog {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
 }
 @media (min-width: 769px) and (max-width: 1640px) {
   .gridProductos {
@@ -197,6 +208,13 @@ footer {
     width: 100%;
     height: auto;
     padding: 20px;
+  }
+  .logoFooter {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .bg-dark1 {
